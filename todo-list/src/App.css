@@ -1,0 +1,65 @@
+h1 {
+  color: #27aedb;
+  text-align: center;
+}
+
+#main {
+  width: 300px;
+  margin: 20px auto 0;
+  border: 1px solid;
+}
+
+#form-container {
+  width: 400px;
+  margin: 20px auto 0;
+  border: 1px solid;
+  border-radius: 3px;
+  box-shadow: 2px 2px 15px 3px rgb(119, 130, 119);
+}
+
+#form-container div {
+  padding: 10px 20px;
+}
+
+
+#todo-list-container .list {
+  float: left;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 3px;
+  margin-right: 15px;
+  width: 150px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(240, 220, 195);
+}
+
+.list {
+  background-color: rgb(188, 218, 244);
+  font-size: 17px;
+  height: auto;
+}
+
+#todo-section {
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+.todo-btns {
+  display: flex;
+  margin-right: 10px;
+}
+
+#todo-list-container .list>.todo-btns >button:last-child {
+  margin-left: 10px;
+}
+
+.edit-area{
+  width:100%;
+}
+
+.save-btn {
+  float: right;
+}
